@@ -6,9 +6,6 @@ const calories = data.toString().split('\n');
 const elves = getElves(calories);
 const solution = getHighestThreeElves(elves);
 
-console.log(solution);
-
-
 function getHighestThreeElves(elves){
 	const sortedElves = elves.sort().reverse();
 
